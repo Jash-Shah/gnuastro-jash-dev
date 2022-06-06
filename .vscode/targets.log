@@ -1,0 +1,395 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jun  2 10:34:15 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+SWAP_GARMINS = false
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/jash-ubuntu/Desktop/Coding_Trash/GSoC/GNUAstro/gnuastro-tutorial/wrappers
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/97
+# environment
+GITMAN_CACHE_DISABLE = 1
+# environment
+JOURNAL_STREAM = 8:62045
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# environment
+WORLD_NAME = simulation
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+JAVA_HOME = /usr/lib/jvm/jdk-17
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+MVIMPACT_ACQUIRE_DIR = /opt/mvIMPACT_acquire
+# environment
+USERNAME = jash-ubuntu
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+ODOMETRY_TYPE = gps
+# environment
+MANAGERPID = 2754
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/jash-ubuntu
+# environment
+SENSORS = 
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/jash-ubuntu/.npm-global/bin:/home/jash-ubuntu/.local/bin:/home/jash-ubuntu/gems/bin:/usr/local/texlive/2021/bin/x86_64-linux:/home/jash-ubuntu/.nvm/versions/node/v17.5.0/bin:/home/jash-ubuntu/miniconda3/condabin:/home/jash-ubuntu/.npm-global/bin:/home/jash-ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/jash-ubuntu.com:@/tmp/.ICE-unix/3076,unix/jash-ubuntu.com:/tmp/.ICE-unix/3076
+# environment
+_ = /snap/code/97/usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/jash-ubuntu/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/97
+# environment
+SNAP_USER_COMMON = /home/jash-ubuntu/snap/code/common
+# environment
+STANDALONE = false
+# environment
+NVM_BIN = /home/jash-ubuntu/.nvm/versions/node/v17.5.0/bin
+# environment
+SNAP_VERSION = c3511e6c
+# environment
+INITIAL_DISTURBANCE_Y = 0.0
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 0f07a3aa536d4c5694008210bdd1da38
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+UAV_TYPE = f550
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 96164
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+CONDA_EXE = /home/jash-ubuntu/miniconda3/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/jash-ubuntu/Desktop/Coding_Trash/GSoC/GNUAstro/gnuastro-tutorial/wrappers
+# default
+.LOADED := 
+# environment
+GEM_HOME = /home/jash-ubuntu/gems
+# environment
+SSH_AGENT_PID = 3000
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+PROPULSION_TYPE = default
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/jash-ubuntu
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/jash-ubuntu/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = jash-ubuntu
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = YJ0uKmCZfFw0xqOrDH2FM6KzVqlLMU5CWdZu-hjnsT_JOKBRFVpD
+# environment
+NVM_CD_FLAGS = 
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+MRS_STATUS = readme
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/jash-ubuntu
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/jash-ubuntu/snap/code/97
+# environment
+SHLVL = 0
+# environment
+INITIAL_DISTURBANCE_X = 0.0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-81b36e64-2f1a-494c-8524-a0311162bcbd.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = jash-ubuntu
+# environment
+SNAP_REVISION = 97
+# makefile
+.DEFAULT_GOAL := 
+# environment
+UAV_MASS = 3.0
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+GCM_CREDENTIAL_STORE = cache
+# environment
+CONDA_SHLVL = 0
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/jash-ubuntu
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_IN:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-0b1f1542-1.67.2-main.sock
+# environment
+RUN_TYPE = simulation
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+PIXGARM = false
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /home/jash-ubuntu/.nvm
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+OUSTER_UDP_DEST_IP = 10.10.20.100
+# environment
+NATO_NAME = 
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = YJ0uKmCZfFw0xqOrDH2FM6KzVqlLMU5CWdZu-hjnsT_JOKBRFVpD
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# environment
+UAV_NAME = uav1
+# environment
+CONDA_PYTHON_EXE = /home/jash-ubuntu/miniconda3/bin/python
+# environment
+LOGGER_DEBUG = false
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+ 
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+_CE_M = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+MVIMPACT_ACQUIRE_DATA_DIR = /opt/mvIMPACT_acquire/data
+# environment
+LANG = C
+# environment
+OUSTER_IP = 10.10.20.90
+# environment
+VSCODE_PID = 96216
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=155/1024=15%, Rehash=0, Collisions=24/177=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66309, inode 7753289): 6 files, no impossibilities.
+
+# 6 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 14 / storage = 124 B / avg = 8 B
+# current buf: size = 8162 B / used = 124 B / count = 14 / avg = 8 B
+
+# strcache performance: lookups = 17 / hit rate = 17%
+# hash-table stats:
+# Load=14/8192=0%, Rehash=0, Collisions=1/17=6%
+# Finished Make data base on Thu Jun  2 10:34:15 2022
+
+ 

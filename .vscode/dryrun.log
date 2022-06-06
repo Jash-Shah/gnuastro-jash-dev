@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/jash-ubuntu/Desktop/Coding_Trash/GSoC/GNUAstro/gnuastro-tutorial/wrappers'
+make: Leaving directory '/home/jash-ubuntu/Desktop/Coding_Trash/GSoC/GNUAstro/gnuastro-tutorial/wrappers'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

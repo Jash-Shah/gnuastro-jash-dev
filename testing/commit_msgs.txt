@@ -1,0 +1,13 @@
+Library (cosmology.c): Added input checks
+
+Until now, there was no internal checking perfomed for the input
+parameters (olambda, omatter, oradiation) in the cosmology library
+functions.
+
+With this commit, a checking function has been added which ensures
+that the fractional densities are between zero and one(inclusive)
+and their sum does not exceed one. It throws an error with appropriate
+message if either of these constraints are violated.
+
+Also, fixed a typo in the Bootstrapping section in the book where
+'README' was spelt as 'REAME'.
